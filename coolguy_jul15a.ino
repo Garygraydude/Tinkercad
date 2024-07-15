@@ -7,8 +7,9 @@ void setup() {
 }
 
 void loop() {
-while(true){
-Serial.print("ERROR");
+for(int i = 0; i < 500 ; i++){
+  Serial.println(i);
+}
 }
 
-}
+
